@@ -13,7 +13,7 @@ namespace Quiz
         /// <summary>
         /// Helper function to load transactions from a tab seperated text file.
         /// </summary>
-        /// <param name="path">Path to the input file.</param>
+        /// <param name="path">File path to the input file.</param>
         /// <returns>Enumerable of transaction.</returns>
         public static IEnumerable<Transaction> Load(string path)
         {
